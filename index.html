@@ -32,6 +32,24 @@ color: blue;
 
             height: 100vh;
 }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  img {
+    max-width: 25%;
+    max-height:15%;
+    float: left;
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20%;
+    float: left;
+  }
 
   </style>
     <meta charset="utf-8">
@@ -51,30 +69,32 @@ color: blue;
   </h2>
 </div>
 <div>
-  <h2 class="h2">
 
-        
 <b>Education:</b>
-<center>
+
 <ul>
   <li>Dallas College</li>
   <li>UTD</li>
 </ul>
-</center>
+
 
         
     <b>Employment:</b>
-    <center>
+    
     <ul>
       <li>Painting with a Twist</li>
       <li>At Home (Home Decor Store)</li>
       <li>Professional Artist</li>
       <li>Game Developer</li>
     </ul>
-  </center>
-      
-      <b>WOOOO!! Resume!!! Look at this epic picture...</b> 
-      <img src="https://pbs.twimg.com/media/GlELVk5XsAAVsgE?format=jpg&name=large" alt="Recent Commission" style="scale:30%;" style="position: fixed;" 
+    <div class="container">
+      <div class="image">
+        <img src="https://pbs.twimg.com/media/GlELVk5XsAAVsgE?format=jpg&name=large">
+      </div>
+      <div class="text">
+        <h1>WOOOO!! Resume!!! Look at this epic picture....</h1>
+      </div>
+    </div>
 
   </h2>
   </div>
